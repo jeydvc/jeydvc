@@ -1,0 +1,49 @@
+body {
+    background-image: url(../RETOS/images/bg-desktop.svg);
+    background-color: #664bb1;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 50px;
+}
+
+.logo-principal {
+    
+}
+
+.main {
+    display: flex;   
+}
+
+.h1 {
+    font-weight: bold;
+}
+
+.p {
+    font-weight: lighter;
+}
+
+.buttom {
+    border: 1px solid black;
+    border-radius: 20px;
+    color: #9487ba;
+    background-color: white;
+    padding: 12px 45px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.imagen {
+    padding-right: 30px;
+}
+
+.texto {
+    padding-left: 30px;
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
