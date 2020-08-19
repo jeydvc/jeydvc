@@ -1,13 +1,17 @@
 body {
+    
     background-image: url(../RETOS/images/bg-desktop.svg);
     background-color: #664bb1;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 50px;
+    padding: 30px;
+    background-position: center center;   
+    background-size: cover;
 }
 
 .logo-principal {
-    
+    margin-left: 0;
+    margin-bottom: 80px;
 }
 
 .main {
@@ -16,11 +20,15 @@ body {
 
 .h1 {
     font-weight: bold;
+    font-size: 40px;
+    
 }
 
 .p {
     font-weight: lighter;
+    font-size: 1.15rem;
 }
+
 
 .buttom {
     border: 1px solid black;
@@ -30,6 +38,7 @@ body {
     padding: 12px 45px;
     font-size: 18px;
     font-family: sans-serif;
+    box-shadow: 0px 10px 15px 5px rgba(52, 38, 87, 0.7);
 }
 
 .imagen {
@@ -45,5 +54,39 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    
+    bottom: 0;
+    margin-top: 40px;
+
+}
+
+.facebook {
+    background-image: url(../RETOS/images/facebook.svg);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    height: 25;
+    width: 25px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.twitter {
+    background-image: url(../RETOS/images/twitter.svg);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    height: 25;
+    width: 25px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.instagram {
+    background-image: url(../RETOS/images/instagram.svg);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    height: 25;
+    width: 25px;
+    border-radius: 50px;
 }
